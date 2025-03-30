@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/url-persistence-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/url-persistence-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/url-persistence-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/url-persistence-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/url-shorten-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/url-shorten-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/url-shorten-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/url-shorten-service.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/url-shortener.iml" filepath="$PROJECT_DIR$/.idea/url-shortener.iml" />
     </modules>
   </component>
