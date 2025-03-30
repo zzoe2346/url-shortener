@@ -4,6 +4,7 @@ import com.urlshortener.shorten.client.PersistenceClient;
 import com.urlshortener.shorten.dto.ShortenRequest;
 import com.urlshortener.shorten.dto.ShortenResponse;
 import com.urlshortener.shorten.dto.UrlSaveRequest;
+import com.urlshortener.shorten.exception.OverLimitException;
 import com.urlshortener.shorten.util.ShortUrlGenerator;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -21,7 +22,8 @@ public class ShortenService {
 
     public ShortenResponse createShortUrl(ShortenRequest shortenRequest) {
         int currentCount = counter.getAndIncrement();
-        if (currentCount >= LIMIT) throw new RuntimeException();
+
+        if (currentCount >= LIMIT) throw new OverLimitException();
 
         String shortUrl = shortUrlGenerator.generateShortUrl(currentCount);
 
