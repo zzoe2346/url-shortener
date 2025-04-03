@@ -1,6 +1,6 @@
 # URL Shortener Micro Service Architecture 
 ## Init Version
-![image 25 (1)](https://github.com/user-attachments/assets/4ea43545-2fff-4f51-9f2a-44f783512f2d)
+![image](https://github.com/user-attachments/assets/c2702b17-814e-43b5-92e0-d4228138b9b3)
 ## About Services
 ### URL Shorten Service
 #### 역할
